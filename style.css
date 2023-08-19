@@ -53,3 +53,7 @@ i {
   padding-left: 25px;
   font-size: 300%;
 }
+
+.extra-bottom-padding {
+  padding-bottom: 50px;
+}
