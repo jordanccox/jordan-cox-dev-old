@@ -1,5 +1,5 @@
 body {
-  padding-top: 64px;
+  padding-top: 56px;
 }
 
 header {
@@ -12,26 +12,29 @@ header {
 }
 
 .intro-text {
-  padding-top: 300px;
-  padding-bottom: 200px;
+  padding-top: 200px;
+  padding-bottom: 300px;
   text-align: center;
 }
 
 .intro-lead-in {
   font-family: "Helvetica Neue", sans-serif;
-  font-style: italic;
-  font-size: 40px;
-  line-height: 40px;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
+  font-size: 50px;
   text-align: center;
 }
 
+@media (max-width: 768px) {
+  .intro-lead-in {
+    font-size: 30px;
+  }
+}
+
 .intro-heading {
-  font-family: "Montserrat", "Helvetica Neue", sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 75px;
-  line-height: 75px;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  font-style:italic;
+  line-height: 25px;
   margin-bottom: 50px;
 }
 
@@ -56,4 +59,12 @@ i {
 
 .extra-bottom-padding {
   padding-bottom: 50px;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: gray;
 }
