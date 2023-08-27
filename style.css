@@ -33,7 +33,7 @@ header {
 .intro-heading {
   font-family: "Helvetica Neue", sans-serif;
   font-size: 18px;
-  font-style:italic;
+  font-style: italic;
   line-height: 25px;
   margin-bottom: 50px;
 }
@@ -67,4 +67,8 @@ a {
 
 a:hover {
   color: gray;
+}
+
+.tech-used {
+  font-size: 14px;
 }
